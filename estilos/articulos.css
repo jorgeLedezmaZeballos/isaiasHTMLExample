@@ -1,0 +1,51 @@
+.contenedor-article-aside{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contenedor-limite{
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.article{
+ display: flex;
+ padding: 20px;
+ box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+.article-img{
+    width: 200px;
+}
+.article-contenido{
+    background-color: white;
+    padding: 10px;
+}
+
+.secundario{
+    background-color: lightblue;
+    padding: 20px;
+}
+.secundario-article h2{
+    font-size: 16px ;
+    padding-bottom: 10px;
+}
+
+.secundario-article h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.secundario-article p{
+    font-size: 14px ;
+    padding-bottom: 50px;
+}
+.secundario-article {
+    border-bottom: solid 1px blue;
+}
